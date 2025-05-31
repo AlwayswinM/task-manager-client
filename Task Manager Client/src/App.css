@@ -1,0 +1,32 @@
+
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-login {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-color: blue;
+  text-decoration-thickness: 2px;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: center;
+}
+
